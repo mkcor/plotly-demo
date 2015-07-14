@@ -20,6 +20,7 @@ Yes, I tend to keep my virtualenvs under `~/.virtualenv/`; adapt to your own tre
     $ source ~/.virtualenv/plotly-demo-env/bin/activate
     $ pip install --upgrade pip
     $ pip install -r requirements.txt
+    $ alias ipython="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
     $ ipython notebook
 
 Let me tell you that I read many [Stack Overflow](http://stackoverflow.com/) answers to have
