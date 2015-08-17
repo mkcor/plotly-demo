@@ -25,3 +25,9 @@ Yes, I tend to keep my virtualenvs under `~/.virtualenv/`; adapt to your own tre
 
 Let me tell you that I read many [Stack Overflow](http://stackoverflow.com/) answers to have
 [Jupyter](https://jupyter.org/) (IPython 3) run successfully the Python 3 kernel!
+
+Update: I would now suggest that you
+
+    $ pip install --upgrade ipython
+    $ pip install notebook
+    $ jupyter notebook
